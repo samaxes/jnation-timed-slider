@@ -13,7 +13,7 @@
     <meta name="robots" content="none">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>JNation Book Signing</title>
+    <title>JNation Youtube feed</title>
     <style>
       html,
       body {
@@ -24,38 +24,33 @@
 
       body {
         background-color: #091210;
-        background-image: url('../../images/media-book-signing-1.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        color: white;
+        display: grid;
+        font-family: system-ui;
       }
 
       .frames {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin-top: 1rem;
       }
-
-      .frames iframe {
-        height:calc(100vh/2.5);
-        width: calc(100vw/2.5);
-      }
-      .frames div {
+      .frames > div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
       }
-
-      .frames div span {
-        font-family: Helvetica, Arial, sans-serif;
-        font-weight: bold;
+      .frames iframe {
+        border: 0;
+        display: block;
+        height:calc(100vh/2.9);
+        width: calc(100vw/2.9);
+      }
+      .frames div p {
         font-size: 2rem;
-        color: white;
-        margin-top: 16px;
+        font-weight: bold;
+        margin-top: 1rem;
       }
 
       .dot {
@@ -63,7 +58,6 @@
         width: calc(2rem/1.5);
         border-radius: 50%;
         display: inline-block;
-        margin-right: 1rem;
       }
       .dot-auditorium {
         background-color: #D65745;
@@ -80,18 +74,18 @@
   <body>
     <div class="frames">
       <div>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pWWWlb6Ddlo?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
-        <span><span class="dot dot-church"></span>Old Church</span>
+        <iframe src="https://www.youtube.com/embed/pWWWlb6Ddlo?controls=0&autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+        <p><span class="dot dot-church"></span> Old Church</p>
       </div>
       <div>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4yIkYQqKQv4?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
-        <span><span class="dot dot-mondego"></span>Mondego</span>
+        <iframe src="https://www.youtube.com/embed/4yIkYQqKQv4?controls=0&autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+        <p><span class="dot dot-mondego"></span> Mondego</p>
       </div>
     </div>
     <div class="frames">
       <div>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Sq9aqieVlD8?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
-        <span><span class="dot dot-auditorium"></span>Grand Auditorium</span>
+        <iframe src="https://www.youtube.com/embed/Sq9aqieVlD8?controls=0&autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+        <p><span class="dot dot-auditorium"></span> Grand Auditorium</p>
       </div>
     </div>
   </body>
