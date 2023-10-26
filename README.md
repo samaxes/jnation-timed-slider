@@ -1,4 +1,4 @@
-# JNation TV scripts
+# Conference TV scripts
 
 ## Deploy new versions
 
@@ -18,12 +18,12 @@ $ git push origin master
 
 Done!
 
-## JNation TV URLs
+## Conference TV URLs
 
-* Media TVs: [https://bit.ly/jnation-media](https://samaxes.github.io/jnation-timed-slider/tvs/media/)
-* Auditorium TVs: [https://bit.ly/jnation-auditorium](https://samaxes.github.io/jnation-timed-slider/tvs/auditorium/)
-* Old Church TVs: [https://bit.ly/jnation-church](https://samaxes.github.io/jnation-timed-slider/tvs/church/)
-* Mondego TVs: [https://bit.ly/jnation-mondego](https://samaxes.github.io/jnation-timed-slider/tvs/mondego/)
-* Almedina TVs: [https://bit.ly/jnation-almedina](https://samaxes.github.io/jnation-timed-slider/tvs/almedina/)
-* Sofia TVs: [https://bit.ly/jnation-sofia](https://samaxes.github.io/jnation-timed-slider/tvs/sofia/)
-* Inês de Castro TVs: [https://bit.ly/jnation-ines](https://samaxes.github.io/jnation-timed-slider/tvs/ines-castro/)
+* PTH track: [https://bit.ly/pth2023-pth](https://samaxes.github.io/jnation-timed-slider/tvs/pth/)
+* Emergn track: [https://bit.ly/pth2023-emergn](https://samaxes.github.io/jnation-timed-slider/tvs/emergn/)
+* Intellias track: [https://bit.ly/pth2023-intellias](https://samaxes.github.io/jnation-timed-slider/tvs/intellias/)
+* ISS track: [https://bit.ly/pth2023-iss](https://samaxes.github.io/jnation-timed-slider/tvs/iss/)
+* Five9 track: [https://bit.ly/pth2023-five9](https://samaxes.github.io/jnation-timed-slider/tvs/five9/)
+* Workshop 1 track: [https://bit.ly/pth2023-w1](https://samaxes.github.io/jnation-timed-slider/tvs/w1/)
+* Workshop 2 track: [https://bit.ly/pth2023-w2](https://samaxes.github.io/jnation-timed-slider/tvs/w2/)
